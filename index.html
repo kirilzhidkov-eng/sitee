@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Мастерская Запечье — творческие мастер-классы</title>
+  <meta name="description" content="Мастерская Запечье: творческие мастер-классы для детей и взрослых, дни рождения, ловцы солнца ручной работы.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Marck+Script&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='48' fill='%23e6620a'/%3E%3Ctext x='50' y='68' font-size='52' text-anchor='middle' fill='%23fff' font-family='serif'%3EЗ%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+
+<header class="header">
+  <div class="header__top container">
+    <div class="header__social">
+      <a href="https://t.me/" target="_blank" rel="noopener" aria-label="Telegram" class="social social--tg">
+        <svg viewBox="0 0 24 24"><path d="M9.04 15.47 8.7 20.1c.48 0 .69-.21.95-.46l2.27-2.17 4.7 3.44c.86.48 1.48.23 1.71-.8L21.6 4.9c.3-1.26-.46-1.76-1.3-1.45L2.6 10.27c-1.23.48-1.21 1.17-.21 1.48l4.5 1.4L17.4 6.6c.5-.3.95-.14.58.17"/></svg>
+      </a>
+      <a href="https://wa.me/79000000000" target="_blank" rel="noopener" aria-label="WhatsApp" class="social social--wa">
+        <svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2m0 1.8a8.2 8.2 0 1 1-4.2 15.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 0 1 12 3.8m-3.3 4.3c-.2 0-.5 0-.7.3-.3.3-1 1-1 2.4s1 2.8 1.2 3c.1.2 2 3.2 5 4.4 2.5 1 3 .8 3.5.7.6 0 1.8-.7 2-1.4.3-.7.3-1.3.2-1.4l-.5-.3-1.9-.9c-.3-.1-.4-.1-.6.1l-.9 1.1c-.2.2-.3.2-.6.1a7 7 0 0 1-3.4-3c-.3-.4 0-.5.2-.7l.5-.6.3-.5v-.5l-.9-2c-.2-.5-.4-.5-.6-.5z"/></svg>
+      </a>
+      <a href="https://vk.com/" target="_blank" rel="noopener" aria-label="ВКонтакте" class="social social--vk">
+        <svg viewBox="0 0 24 24"><path d="M13.2 18.5C6.3 18.5 2.4 13.8 2.2 6h3.5c.1 5.7 2.6 8.1 4.6 8.6V6h3.3v4.9c2-.2 4-2.4 4.7-4.9h3.3a9.4 9.4 0 0 1-4.3 6.1 9.8 9.8 0 0 1 5 6.4h-3.6a6.1 6.1 0 0 0-4.9-4.4v4.4z"/></svg>
+      </a>
+    </div>
+
+    <a href="#top" class="logo">
+      <span class="logo__mark" aria-hidden="true">
+        <svg viewBox="0 0 64 64"><circle cx="32" cy="32" r="30" fill="none" stroke="currentColor" stroke-width="2"/><path d="M20 44 L32 14 L44 44 Z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M26 44 L38 44 L32 34 Z" fill="currentColor"/><circle cx="32" cy="24" r="3" fill="currentColor"/></svg>
+      </span>
+      <span class="logo__text">
+        <span class="logo__name">Запечье</span>
+        <span class="logo__sub">мастерская творчества</span>
+      </span>
+    </a>
+
+    <div class="header__right">
+      <a href="mailto:hello@zapechye.ru" class="header__mail">hello@zapechye.ru</a>
+      <a href="#contacts" class="btn btn--sm">Контакты</a>
+      <button class="burger" type="button" aria-label="Открыть меню" aria-expanded="false" data-burger>
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+  <hr class="header__line">
+  <nav class="nav" data-nav>
+    <ul class="nav__list">
+      <li><a href="#catalog" data-filter-link="mk">Мастер-классы</a></li>
+      <li><a href="#catalog" data-filter-link="sun">Ловцы солнца</a></li>
+      <li><a href="#catalog" data-filter-link="party">Праздники</a></li>
+      <li><a href="#gallery">Галерея</a></li>
+      <li><a href="#faq">Вопросы</a></li>
+      <li><a href="#about">О нас</a></li>
+      <li><a href="#contacts">Контакты</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="top">
+
+  <!-- Главный экран -->
+  <section class="hero container">
+    <div class="hero__photo">
+      <img src="images/hero.svg" alt="Мастерская Запечье">
+    </div>
+    <div class="hero__text">
+      <p class="hero__line">согрей душу</p>
+      <p class="hero__script">творчеством</p>
+      <p class="hero__line">в тепле Запечья</p>
+      <a href="#catalog" class="btn hero__btn">Выбрать мастер-класс</a>
+    </div>
+  </section>
+
+  <!-- Цифры -->
+  <section class="stats">
+    <div class="container stats__grid">
+      <div class="stat">
+        <div class="stat__num">500+</div>
+        <div class="stat__label">учеников</div>
+      </div>
+      <div class="stat">
+        <div class="stat__num">120+</div>
+        <div class="stat__label">мастер-классов</div>
+      </div>
+      <div class="stat">
+        <div class="stat__num">∞</div>
+        <div class="stat__label">тепла и уюта</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Каталог -->
+  <section class="section" id="catalog">
+    <div class="container">
+      <h2 class="section__title">Мастер-классы и изделия</h2>
+      <p class="section__descr">Творчество в народном стиле для детей и взрослых. Все материалы включены в стоимость.</p>
+      <div class="filters" data-filters></div>
+      <div class="cards" data-catalog></div>
+    </div>
+  </section>
+
+  <!-- Галерея -->
+  <section class="section section--gallery" id="gallery">
+    <div class="container">
+      <h2 class="section__title">Галерея работ</h2>
+      <div class="rope">
+        <svg class="rope__line" viewBox="0 0 1200 120" preserveAspectRatio="none" aria-hidden="true">
+          <path d="M0 20 Q 300 110 600 40 T 1200 30" fill="none" stroke="#b8702d" stroke-width="5" stroke-dasharray="14 6" stroke-linecap="round"/>
+        </svg>
+        <div class="polaroids" data-gallery></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Вопросы -->
+  <section class="section" id="faq">
+    <div class="container container--narrow">
+      <h2 class="section__title">Вопросы и ответы</h2>
+      <div class="faq" data-faq></div>
+    </div>
+  </section>
+
+  <!-- О нас -->
+  <section class="section" id="about">
+    <div class="container">
+      <h2 class="section__title">О нас</h2>
+      <div class="about">
+        <div class="about__photo"><img src="images/about.svg" alt="Пространство мастерской"></div>
+        <div class="about__text">
+          <p><strong>Запечье</strong> — это тёплое место за печкой, где раньше собиралась вся семья: рукодельничали, рассказывали сказки, пили чай.</p>
+          <p>Мы возродили эту традицию в нашей мастерской. Здесь дети и взрослые знакомятся с народными ремёслами — росписью, куклами-оберегами, текстилем — и создают красивые вещи своими руками.</p>
+          <p>Приходите в одиночку, с семьёй или компанией друзей. Чай у нас всегда горячий.</p>
+        </div>
+      </div>
+      <p class="section__descr section__descr--team">Команда мастерской</p>
+      <div class="team" data-team></div>
+    </div>
+  </section>
+
+  <!-- Контакты -->
+  <section class="section section--contacts" id="contacts">
+    <div class="container">
+      <h2 class="section__title">Контакты</h2>
+      <div class="contacts">
+        <div class="contacts__info">
+          <p><strong>Адрес:</strong> г. Город, ул. Примерная, д. 1</p>
+          <p><strong>Телефон:</strong> <a href="tel:+79000000000">+7 (900) 000-00-00</a></p>
+          <p><strong>Почта:</strong> <a href="mailto:hello@zapechye.ru">hello@zapechye.ru</a></p>
+          <p><strong>Режим работы:</strong> ежедневно 10:00–20:00, по предварительной записи</p>
+          <div class="contacts__social">
+            <a href="https://t.me/" target="_blank" rel="noopener" class="btn btn--outline">Telegram</a>
+            <a href="https://wa.me/79000000000" target="_blank" rel="noopener" class="btn btn--outline">WhatsApp</a>
+          </div>
+        </div>
+        <form class="form" data-form>
+          <h3 class="form__title">Оставить заявку</h3>
+          <p class="form__descr">Мы свяжемся с вами в течение дня</p>
+          <input type="text" name="name" placeholder="Имя" required autocomplete="name">
+          <input type="tel" name="phone" placeholder="+7 (900) 000-00-00" required autocomplete="tel">
+          <select name="item" data-form-item>
+            <option value="">Что вас интересует?</option>
+          </select>
+          <textarea name="message" placeholder="Комментарий" rows="3"></textarea>
+          <button type="submit" class="btn">Отправить</button>
+          <p class="form__note">Это демо-форма: заявка не отправляется, а показывает экран благодарности.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container footer__inner">
+    <div>© <span data-year></span> Мастерская Запечье</div>
+    <div class="footer__links">
+      <a href="#catalog">Мастер-классы</a>
+      <a href="#gallery">Галерея</a>
+      <a href="#contacts">Контакты</a>
+    </div>
+  </div>
+</footer>
+
+<!-- Плавающая кнопка -->
+<button class="fab" type="button" data-open-modal>Записаться</button>
+
+<!-- Модальное окно записи -->
+<div class="modal" data-modal aria-hidden="true">
+  <div class="modal__backdrop" data-close-modal></div>
+  <div class="modal__box" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <button class="modal__close" type="button" aria-label="Закрыть" data-close-modal>&times;</button>
+    <form class="form form--modal" data-form>
+      <h3 class="form__title" id="modalTitle">Записаться</h3>
+      <p class="form__descr">Оставьте заявку, и мы свяжемся с вами в течение дня</p>
+      <input type="text" name="name" placeholder="Имя" required autocomplete="name">
+      <input type="tel" name="phone" placeholder="+7 (900) 000-00-00" required autocomplete="tel">
+      <select name="item" data-form-item>
+        <option value="">Что вас интересует?</option>
+      </select>
+      <textarea name="message" placeholder="Комментарий" rows="3"></textarea>
+      <button type="submit" class="btn">Отправить</button>
+    </form>
+  </div>
+</div>
+
+<script src="js/catalog.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
